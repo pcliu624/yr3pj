@@ -7,6 +7,6 @@ Home environment data system
    changing of data.
 
    
-   hardware used: nodemcu, dht11, RCWL-0516, BH1750, RC522, GP2Y1010AU0F, MQ-9
+   hardware used: nodemcu*2, dht11, RCWL-0516, BH1750, RC522, GP2Y1010AU0F, MQ-9
    
    
