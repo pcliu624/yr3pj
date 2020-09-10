@@ -23,7 +23,7 @@ WiFiServer server(80);
 void setup(){  
   Serial.begin(9600); 
    pinMode(ledPower,OUTPUT);
-   WiFi.begin("dafuq", "58565856");
+   WiFi.begin("id", "password");
    WiFi.mode(WIFI_STA);
    dht.begin();
      pinMode(12, OUTPUT);
