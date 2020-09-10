@@ -15,8 +15,8 @@
 #define RST_PIN  5 // RST-PIN für RC522 - RFID - SPI - Modul GPIO5 
 #define SS_PIN  15  // SDA-PIN für RC522 - RFID - SPI - Modul GPIO4 
 
-const char *ssid =  "dafuq";     // change according to your Network - cannot be longer than 32 characters!
-const char *pass =  "58565856"; // change according to your Network
+const char *ssid =  "id";     // change according to your Network - cannot be longer than 32 characters!
+const char *pass =  "password"; // change according to your Network
 String card="";
 const int pinSensor = 2;
 const int pinLed = 4;
