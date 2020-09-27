@@ -4,7 +4,7 @@ include("wrappers 2/php-wrapper/fusioncharts.php");
 /* The following 4 code lines contains the database connection information. Alternatively, you can move these code lines to a separate file and include the file here. You can also modify this code based on your database connection.   */
 $hostdb = "localhost";  // MySQl host
 $userdb = "root";  // MySQL username
-$passdb = "58565856";  // MySQL password
+$passdb = "";  // MySQL password
 $namedb = "project";  // MySQL database name
 // Establish a connection to the database
 $dbhandle = new mysqli($hostdb, $userdb, $passdb, $namedb);
