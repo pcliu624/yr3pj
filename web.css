@@ -3,10 +3,11 @@ body {
      color: #777;
  }
  h3 {
-     margin: 10px 0 30px 0;
+     margin: 80px 0 30px 150px;
      letter-spacing: 10px;
      font-size: 20px;
      color: #111;
+
  }
  h5{
    margin:10px 0 30px 0;
@@ -15,7 +16,7 @@ body {
    color:#FFF;
  }
  .container {
-     padding: 50px 0px 0px 0px;
+    margin: relative;
 }
 
  .carousel-inner img {
@@ -107,10 +108,11 @@ body {
  .footer {
      background-color: #2d2d30;
      color: #f5f5f5;
-     padding: 30px;
+     bottom:0;
      width: 100%;
      text-align: center;
-     position: fixed;
+     position: absolute;
+
  }
  .footer h3{
    color: #0EB8B4;
@@ -128,3 +130,10 @@ body {
  table, th, td{
    border-collapse: 1px
  }
+#chart-container{
+  width:300px;
+  margin-left:50px;
+}
+#chart{
+  margin-left:50px !important;
+}
